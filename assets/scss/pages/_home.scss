@@ -33,6 +33,9 @@
     }
 }
 
+
+
+
 .menu {
     width: 280px;
     height: 350px;
@@ -54,27 +57,32 @@
     background-color: rgba(0, 121, 138, 1);
 }
 
-.plan {width: 300px;
+.plan {
+    width: 200px;
     height: 300px;
-    background-color: #D8D8D8;
+
+
+
+    p.planhead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: black;
+    }
+
 
     ul {
         list-style: none;
 
-        .price{
+        .price {
             align-items: center;
         }
 
         text-align: center;
     }
-   
 
 
-    li.planhead {
-    
- align-items: center;
-        background-color: black;
-    }
 
     li {
         font-size: 25px;
@@ -86,15 +94,13 @@
         align-items: center;
         background-color: green;
     }
-    
+
 }
-.linebluescnd{padding-top: 40px;
+
+.linebluescnd {
+    padding-top: 40px;
     width: 100%;
     height: 200px;
-   
-    background-color: rgba(0, 121, 138, 1);}
-    .col input{width: 100%;
-        height: 40px;
-        margin: ; 4px;
-        display: flex;
-    flex-wrap: wrap;}
+
+    background-color: rgba(0, 121, 138, 1);
+}
